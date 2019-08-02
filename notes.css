@@ -1,0 +1,78 @@
+body {
+ color: pink;
+  border: 10px solid yellow;
+  background-color: Green;
+}
+
+CSS notes
+
+styling elements
+selector {}
+character : value;
+}
+
+Example::
+
+p{
+  color: green;
+  font size: 25px;
+}
+
+Using classes to style specific elements
+In HTML:
+<selector class = "classname">
+
+In CSS:
+.classname{
+  character: value
+}
+
+Example::
+In HTML:
+<h1 class = "blueboarder"> All about Chris Brown!</h1>
+
+In CSS:
+.blueboader {
+  border: 10px dashed blue;
+
+}
+
+Using an ID to style ONE element
+
+In html
+<selector id = "idname" > blah blah blah </selector>
+
+In CSS
+#idname{
+  character: value;
+}
+
+Example
+In html
+
+<li id = "funkyborder" > blah blah blah </li>
+
+In CSS
+
+#funkyborder{
+  border: 20px solid purple;
+}
+
+Some helpful characters!
+boarder-radius: smooths the edge of a box to make more circular
+box-shadow: places a shadow on a box or element
+height: changes the height of an element (px or %)
+width: changes width odf an elemnt (px or %)
+border: creates a border around element
+color: changes  the front color
+font-family: changes the font
+margin: adds a margin around the element, outside of the boarder (px)
+padding: increases the space within the element, INSIDE of the border (px)
+
+FLEX-BOX: arrange items in a container
+-ALWAYS need to start with display:flex;
+-DIFFERENT OPTIONS
+*Justify-Content (arranges items horizontally on page) : center, space-between, space-around
+*Align-items (arranges items virtically on page): center, flex-end, flex-start
+*Flex-direction (direction objects are placed) : row, row-reverse, coloum, and coloum-reverse
+*flex-wrap (organizes content on lines/rows) : wrap (mutiple lines), no-wrap (one line), wrap-reverse (items in reverse order on mutiple lines)
